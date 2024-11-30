@@ -88,7 +88,7 @@ Text:
                 # ตรวจสอบว่าผลลัพธ์มีข้อมูลหรือไม่
                 if not keywords_table.strip():
                     st.error("No response from OpenAI API. Please check the input or API key.")
-                    df_keywords = pd.DataFrame(columns=["Chinese Word", "Pinyin", "English Translation"])  # DataFrame ว่าง
+                    df_keywords = pd.DataFrame(columns=["Chinese Word", "Pinyin", "Thai Translation"])  # DataFrame ว่าง
 
                 else:
                     # แปลงตารางผลลัพธ์เป็น DataFrame
@@ -101,11 +101,11 @@ Text:
 
                     # ตรวจสอบว่ามีคำศัพท์ในตารางหรือไม่
                     if keywords_list:
-                        df_keywords = pd.DataFrame(keywords_list, columns=["Chinese Word", "Pinyin", "English Translation"])
+                        df_keywords = pd.DataFrame(keywords_list, columns=["Chinese Word", "Pinyin", "Thai Translation"])
             
                     else:
                         st.warning("No keywords were extracted. Please check the input or API response format.")
-                        df_keywords = pd.DataFrame(columns=["Chinese Word", "Pinyin", "English Translation"])  # DataFrame ว่าง
+                        df_keywords = pd.DataFrame(columns=["Chinese Word", "Pinyin", "Thai Translation"])  # DataFrame ว่าง
                 # แสดงผลลัพธ์
                 st.subheader("Pinyin 🧧")
                 st.write(f"{pinyin_text}")
