@@ -136,13 +136,13 @@ Text:
                 st.markdown(
                     f"""
                     <div style="
-                        background-color: #FFE6E6;
+                        background-color: #741102;
                         border-radius: 20px;
                         padding: 15px;
                         margin: 20px 0;  /* กำหนดระยะห่างด้านบนและล่างเท่ากัน */
-                        border: 1px solid #FFCCCC;">
-                        <h4 style="color: #D9534F; margin-bottom: 10px;">Pinyin 🧧</h4>
-                        <p style="font-size: 16px; line-height: 1.6; color: #333;">{pinyin_text}</p>
+                        border: 1px solid black;">
+                        <h4 style="color: #D8C8B8; margin-bottom: 10px;">Pinyin 🧧</h4>
+                        <p style="font-size: 16px; line-height: 1.6; color: white;">{pinyin_text}</p>
                     </div>
                     """,
                     unsafe_allow_html=True
