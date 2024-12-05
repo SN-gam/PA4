@@ -173,8 +173,8 @@ Text:
                         border-radius: 20px;  
                         padding: 10px;  
                         margin: 20px 0;  /* กำหนดระยะห่างด้านบนและล่างเท่ากัน */
-                        border: 1px solid #D8C8B8;">
-                        <h4 style="color: #1890FF; margin-bottom: 5px;">Interesting Keywords Table 🀄️</h4>
+                        border: 1px solid black;">
+                        <h4 style="color: #D8C8B8; margin-bottom: 5px;">Interesting Keywords Table 🀄️</h4>
                     </div>
                     """,
                     unsafe_allow_html=True
