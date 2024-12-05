@@ -158,7 +158,7 @@ Text:
                         margin: 20px 0;  /* กำหนดระยะห่างด้านบนและล่างเท่ากัน */
                         border: 1px solid #FFE599;">
                         <h4 style="color: #FF8C00; margin-bottom: 10px;">Summary (English) 🥢</h4>
-                        <p style="font-size: 16px; line-height: 1.6; color: #333;">{summary_text}</p>
+                        <p style="font-size: 16px; line-height: 1.6; color: black;">{summary_text}</p>
                     </div>
                     """,
                     unsafe_allow_html=True
