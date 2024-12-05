@@ -153,13 +153,13 @@ Text:
                 st.markdown(
                     f"""
                     <div style="
-                        background-color: #FFF9CC;
+                        background-color: #042D29;
                         border-radius: 20px;
                         padding: 15px;
                         margin: 20px 0;  /* กำหนดระยะห่างด้านบนและล่างเท่ากัน */
-                        border: 1px solid #FFE599;">
-                        <h4 style="color: #FF8C00; margin-bottom: 10px;">Summary (English) 🥢</h4>
-                        <p style="font-size: 16px; line-height: 1.6; color: black;">{clean_summary}</p>
+                        border: 1px solid black;">
+                        <h4 style="color: #929079; margin-bottom: 10px;">Summary (English) 🥢</h4>
+                        <p style="font-size: 16px; line-height: 1.6; color: white;">{clean_summary}</p>
                     </div>
                     """,
                     unsafe_allow_html=True
