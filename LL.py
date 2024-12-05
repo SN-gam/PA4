@@ -136,7 +136,7 @@ Text:
                 st.markdown(
                     f"""
                     <div style="
-                        background-color: #741102;
+                        background-color: #2A3F5E;
                         border-radius: 20px;
                         padding: 15px;
                         margin: 20px 0;  /* กำหนดระยะห่างด้านบนและล่างเท่ากัน */
@@ -158,7 +158,7 @@ Text:
                         padding: 15px;
                         margin: 20px 0;  /* กำหนดระยะห่างด้านบนและล่างเท่ากัน */
                         border: 1px solid black;">
-                        <h4 style="color: #929079; margin-bottom: 10px;">Summary (English) 🥢</h4>
+                        <h4 style="color: #D8C8B8; margin-bottom: 10px;">Summary (English) 🥢</h4>
                         <p style="font-size: 16px; line-height: 1.6; color: white;">{clean_summary}</p>
                     </div>
                     """,
